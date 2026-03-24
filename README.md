@@ -165,7 +165,7 @@ Top skills linked to the highest average salaries (₹165,000/year):
 
 **MySQL** – Database design, querying, and management.
 
-```
+``` sql
 SELECT
     skills,
     round(avg(salary_year_avg),0) as avg_salary 
@@ -219,7 +219,7 @@ To ensure employability, include foundational and highly demanded skills like Py
 
 A balanced skill set combining high-paying technical skills and widely required tools will make a candidate highly competitive.
 
-```
+``` sql
 
 WITH skills_demand AS
 (
